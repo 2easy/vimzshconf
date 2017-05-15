@@ -12,10 +12,10 @@ plugins=(git docker)
 
 # User configuration
 export PATH="${HOME}/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin"
-
 export PATH="${HOME}/Library/Python/2.7/bin:${PATH}"
 
 source $ZSH/oh-my-zsh.sh
+eval "$(rbenv init -)"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
