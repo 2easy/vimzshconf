@@ -1,0 +1,9 @@
+dev:
+  build: .
+  volumes:
+    - ./:/home/peter/src
+  ports:
+    - '4567:4567'
+  environment:
+    DATABASE_PASSWORD: password
+
